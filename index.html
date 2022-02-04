@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A simple number guessing game made with JavaScript" />
+
+		<link rel="shortcut icon" href="./favicon.svg" type="image/xml+svg" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&family=Poppins:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+
+		<script src="./script.js" defer></script>
+
+		<title>Number Guessing Game</title>
+	</head>
+	<body>
+		<header>
+			<h1>Number Guessing Game</h1>
+		</header>
+
+		<main>
+			<h1 class="title" aria-label="instructions">Try to guess the number</h1>
+
+			<h2 id="answer" aria-label="answer">???</h2>
+
+			<div class="screen">
+				<form id="guessForm">
+					<div class="form-control">
+						<input
+							type="number"
+							name="guessed number"
+							id="guess"
+							min="0"
+							max="1000"
+							placeholder="Enter a number(1 - 1000)"
+							required
+						/>
+						<label for="guess">Enter a number (1 - 1000)</label>
+					</div>
+
+					<button type="submit" class="btn" title="Try your guess">Guess Number</button>
+				</form>
+			</div>
+
+			<div class="history--container">
+				<button class="btn history--btn" aria-label="toggle history" title="Toggle History">
+					&LeftAngleBracket;
+				</button>
+				<div class="history">
+					<h3>Previous Attempts</h3>
+					<ul class="history__list"></ul>
+				</div>
+			</div>
+
+			<div class="result" aria-label="number of attempts"></div>
+
+			<button class="btn btn-new" aria-label="new game button" title="Start a new game">New Game</button>
+		</main>
+
+		<footer>
+			<div class="copyright" aria-label="copyright notice">&copy; Copyright 2021 - 2022. Nathaniel Campbell.</div>
+		</footer>
+	</body>
+</html>
