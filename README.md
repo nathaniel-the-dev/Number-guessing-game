@@ -10,3 +10,5 @@ The game comes with a history mode, so you can see any previous guesses you made
 If there are any bugs or problems with the game, you can create an issue or pull request and I will try to fix it.
 
 Okay! Enjoy😁
+
+[Check out the game here](https://natscamp-number-guessing-game.netlify.app/)
