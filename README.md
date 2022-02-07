@@ -6,7 +6,9 @@ This is a "Guess the Number" game made with JavaScript. It is my first JavaScrip
 
 ## How to play
 
-Well, it's simple. Try and guess the random number in the range specified, in as few attempts as possible.
+Well, it's simple. 
+
+Try and guess the random number in the range specified, in as few attempts as possible.
 The game comes with a history mode, so you can see any previous guesses you made. Pretty neat, huh?
 
 Okay! Enjoy😁
