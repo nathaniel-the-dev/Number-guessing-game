@@ -12,3 +12,6 @@ If there are any bugs or problems with the game, you can create an issue or pull
 Okay! Enjoy😁
 
 [Check out the game here](https://natscamp-number-guessing-game.netlify.app/)
+
+## License
+[MIT](https://github.com/Nathan1434/number-guessing-game/blob/0ebf2d0d72a80a1c24354545ccb3188a1858f598/LICENSE)
