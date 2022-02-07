@@ -19,4 +19,4 @@ Okay! Enjoy😁
 If there are any bugs or problems with the game, you can create an issue or pull request and I will try to fix it.
 
 ## License
-[MIT](https://github.com/Nathan1434/number-guessing-game/blob/0ebf2d0d72a80a1c24354545ccb3188a1858f598/LICENSE)
+[MIT](./LICENSE)
